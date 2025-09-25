@@ -183,16 +183,6 @@ source_31: {
     name: '91麻豆',
     detail: 'https://91md.me',
 },
-source_32: {
-    api: 'https://api.1080zyku.com/inc/api_mac10.php',
-    name: '1080资源库',
-    detail: 'https://api.1080zyku.com',
-},
-source_33: {
-    api: 'https://www.huyaapi.com/api.php/provide/vod/',
-    name: '虎牙资源',
-    detail: 'https://www.huyaapi.com',
-},
 source_34: {
     api: 'https://m3u8.apiyhzy.com/api.php/provide/vod/',
     name: '樱花资源网',
