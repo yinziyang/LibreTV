@@ -22,12 +22,332 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
-    }
+    //testSource: {
+    //    api: 'https://www.example.com/api.php/provide/vod',
+    //    name: '空内容测试源',
+    //    adult: true
+    //}
     //ARCHIVE https://telegra.ph/APIs-08-12
+source_1: {
+    api: 'https://www.inmi.app/api.php/provide/vod/',
+    name: '映迷',
+    detail: 'https://www.inmi.app',
+},
+source_2: {
+    api: 'http://api.xinlangapi.com/xinlangapi.php/provide/vod/',
+    name: '新浪资源',
+    detail: 'http://api.xinlangapi.com',
+},
+source_3: {
+    api: 'https://slapibf.com/api.php/provide/vod/',
+    name: '森林资源',
+    detail: 'https://slapibf.com',
+},
+source_4: {
+    api: 'https://shayuapi.com/api.php/provide/vod/',
+    name: '鲨鱼资源',
+    detail: 'https://shayuapi.com',
+},
+source_5: {
+    api: 'http://fhapi9.com/api.php/provide/vod/',
+    name: '番号资源',
+    detail: 'http://fhapi9.com',
+},
+source_6: {
+    api: 'https://api.sexnguon.com/api.php/provide/vod/',
+    name: '色南国',
+    detail: 'https://api.sexnguon.com',
+},
+source_7: {
+    api: 'http://lbapiby.com/api.php/provide/vod/at/json',
+    name: 'AIvin',
+    detail: 'http://lbapiby.com',
+},
+source_8: {
+    api: 'https://ckzy.me/api.php/provide/vod/',
+    name: 'CK资源',
+    detail: 'https://ckzy.me',
+},
+source_9: {
+    api: 'https://lbapi9.com/api.php/provide/vod/at/json',
+    name: '乐播资源',
+    detail: 'https://lbapi9.com',
+},
+source_10: {
+    api: 'http://cj.baozi66.top:66/api.php/provide/vod/',
+    name: '雨哥哥影视',
+    detail: 'http://cj.baozi66.top:66',
+},
+source_11: {
+    api: 'https://www.kxgav.com/api/json.php',
+    name: '白嫖资源',
+    detail: 'https://www.kxgav.com',
+},
+source_12: {
+    api: 'https://www.xrbsp.com/api/json.php',
+    name: '淫水机资源',
+    detail: 'https://www.xrbsp.com',
+},
+source_13: {
+    api: 'https://aosikazy.com/api.php/provide/vod/',
+    name: '奥斯卡资源网',
+    detail: 'https://aosikazy.com',
+},
+source_14: {
+    api: 'http://cj.ffzyapi.com/api.php/provide/vod/',
+    name: '非凡资源',
+    detail: 'http://cj.ffzyapi.com',
+},
+source_15: {
+    api: 'http://sdzyapi.com/api.php/provide/vod/',
+    name: '闪电资源',
+    detail: 'http://sdzyapi.com',
+},
+source_16: {
+    api: 'https://api.apibdzy.com/api.php/provide/vod/',
+    name: '百度资源',
+    detail: 'https://api.apibdzy.com',
+},
+source_17: {
+    api: 'https://www.pgxdy.com/api/json.php',
+    name: '黄AV资源',
+    detail: 'https://www.pgxdy.com',
+},
+source_18: {
+    api: 'https://subocaiji.com/api.php/provide/vod/',
+    name: '速博资源',
+    detail: 'https://subocaiji.com',
+},
+source_19: {
+    api: 'https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/',
+    name: '紅牛资源',
+    detail: 'https://www.hongniuzy2.com',
+},
+source_20: {
+    api: 'https://www.hongniuzy2.com/api.php/provide/vod/',
+    name: '红牛资源',
+    detail: 'https://www.hongniuzy2.com',
+},
+source_21: {
+    api: 'https://www.msnii.com/api/json.php',
+    name: '美少女资源',
+    detail: 'https://www.msnii.com',
+},
+source_22: {
+    api: 'https://cj.lziapi.com/api.php/provide/vod/',
+    name: '量子云',
+    detail: 'https://cj.lziapi.com',
+},
+source_23: {
+    api: 'https://p2100.net/api.php/provide/vod/',
+    name: '飘零影院',
+    detail: 'https://p2100.net',
+},
+source_24: {
+    api: 'https://jyzyapi.com/provide/vod/from/jinyingm3u8/',
+    name: '金鹰资源',
+    detail: 'https://jyzyapi.com',
+},
+source_25: {
+    api: 'https://www.gdlsp.com/api/json.php',
+    name: '香奶儿资源',
+    detail: 'https://www.gdlsp.com',
+},
+source_26: {
+    api: 'http://cj.lziapi.com/api.php/provide/vod/',
+    name: '量子资源_1',
+    detail: 'http://cj.lziapi.com',
+},
+source_27: {
+    api: 'https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/',
+    name: '光速资源',
+    detail: 'https://api.guangsuapi.com',
+},
+source_28: {
+    api: 'https://api.guangsuapi.com/api.php/provide/vod/',
+    name: '光速资源_1',
+    detail: 'https://api.guangsuapi.com',
+},
+source_29: {
+    api: 'https://sdzyapi.com/api.php/provide/vod/from/sdm3u8/',
+    name: '閃電资源',
+    detail: 'https://sdzyapi.com',
+},
+source_30: {
+    api: 'https://91md.me/api.php/provide/vod/from/mdm3u8/',
+    name: '91md',
+    detail: 'https://91md.me',
+},
+source_31: {
+    api: 'https://91md.me/api.php/provide/vod/',
+    name: '91麻豆',
+    detail: 'https://91md.me',
+},
+source_32: {
+    api: 'https://api.1080zyku.com/inc/api_mac10.php',
+    name: '1080资源库',
+    detail: 'https://api.1080zyku.com',
+},
+source_33: {
+    api: 'https://www.huyaapi.com/api.php/provide/vod/',
+    name: '虎牙资源',
+    detail: 'https://www.huyaapi.com',
+},
+source_34: {
+    api: 'https://m3u8.apiyhzy.com/api.php/provide/vod/',
+    name: '樱花资源网',
+    detail: 'https://m3u8.apiyhzy.com',
+},
+source_35: {
+    api: 'http://jinyingzy.com/provide/vod/',
+    name: 'jinyingzy金鹰',
+    detail: 'http://jinyingzy.com',
+},
+source_36: {
+    api: 'https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/',
+    name: '量子资源',
+    detail: 'https://cj.lziapi.com',
+},
+source_37: {
+    api: 'https://collect.wolongzyw.com/api.php/provide/vod/ ',
+    name: '卧龙资源',
+    detail: 'https://collect.wolongzyw.com',
+},
+source_38: {
+    api: 'https://collect.wolongzyw.com/api.php/provide/vod/',
+    name: '卧龙资源_1',
+    detail: 'https://collect.wolongzyw.com',
+},
+source_39: {
+    api: 'https://api.1080zyku.com/inc/apijson.php/',
+    name: '神马云',
+    detail: 'https://api.1080zyku.com',
+},
+source_40: {
+    api: 'https://ikunzyapi.com/api.php/provide/vod/',
+    name: '爱坤资源',
+    detail: 'https://ikunzyapi.com',
+},
+source_41: {
+    api: 'https://cj.rycjapi.com/api.php/provide/vod',
+    name: '如意资源',
+    detail: 'https://cj.rycjapi.com',
+},
+source_42: {
+    api: 'https://lovedan.net/api.php/provide/vod/',
+    name: '艾旦影视',
+    detail: 'https://lovedan.net',
+},
+source_43: {
+    api: 'https://zy.xmm.hk/api.php/provide/vod',
+    name: '小猫咪资源',
+    detail: 'https://zy.xmm.hk',
+},
+source_44: {
+    api: 'https://api.ukuapi.com/api.php/provide/vod/',
+    name: 'U酷资源',
+    detail: 'https://api.ukuapi.com',
+},
+source_45: {
+    api: 'https://api.apibdzy.com/api.php/provide/vod',
+    name: '百度云资源',
+    detail: 'https://api.apibdzy.com',
+},
+source_46: {
+    api: 'https://api.wujinapi.com/api.php/provide/vod/',
+    name: 'wujinapi无尽资源',
+    detail: 'https://api.wujinapi.com',
+},
+source_47: {
+    api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
+    name: '樱花资源',
+    detail: 'https://m3u8.apiyhzy.com',
+},
+source_48: {
+    api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
+    name: '电影天堂资源',
+    detail: 'http://caiji.dyttzyapi.com',
+},
+source_49: {
+    api: 'https://api.wujinapi.cc/api.php/provide/vod/',
+    name: 'wujinapi无尽',
+    detail: 'https://api.wujinapi.cc',
+},
+source_50: {
+    api: 'https://dbzy.tv/api.php/provide/vod',
+    name: '豆瓣资源_1',
+    detail: 'https://dbzy.tv',
+},
+source_51: {
+    api: 'https://api.zuidapi.com/api.php/provide/vod',
+    name: '最大资源',
+    detail: 'https://api.zuidapi.com',
+},
+source_52: {
+    api: 'https://jszyapi.com/api.php/provide/vod',
+    name: '极速资源_1',
+    detail: 'https://jszyapi.com',
+},
+source_53: {
+    api: 'https://api.wujinapi.net/api.php/provide/vod/',
+    name: '无尽资源',
+    detail: 'https://api.wujinapi.net',
+},
+source_54: {
+    api: 'https://www.mdzyapi.com/api.php/provide/vod',
+    name: '魔都资源',
+    detail: 'https://www.mdzyapi.com',
+},
+source_55: {
+    api: 'https://tyyszy.com/api.php/provide/vod',
+    name: '天涯资源',
+    detail: 'https://tyyszy.com',
+},
+source_56: {
+    api: 'https://360zy.com/api.php/provide/vod',
+    name: '360资源',
+    detail: 'https://360zy.com',
+},
+source_57: {
+    api: 'https://bfzyapi.com/api.php/provide/vod',
+    name: '暴风资源',
+    detail: 'https://bfzyapi.com',
+},
+source_58: {
+    api: 'https://wwzy.tv/api.php/provide/vod',
+    name: '旺旺短剧',
+    detail: 'https://wwzy.tv',
+},
+source_59: {
+    api: 'http://ffzy5.tv/api.php/provide/vod',
+    name: '非凡影视',
+    detail: 'http://ffzy5.tv',
+},
+source_60: {
+    api: 'https://api.wujinapi.me/api.php/provide/vod',
+    name: '无尽资源_1',
+    detail: 'https://api.wujinapi.me',
+},
+source_61: {
+    api: 'https://mozhuazy.com/api.php/provide/vod',
+    name: '魔爪资源',
+    detail: 'https://mozhuazy.com',
+},
+source_62: {
+    api: 'https://wolongzyw.com/api.php/provide/vod',
+    name: '卧龙资源_1',
+    detail: 'https://wolongzyw.com',
+},
+source_63: {
+    api: 'https://ikunzyapi.com/api.php/provide/vod',
+    name: 'iKun资源',
+    detail: 'https://ikunzyapi.com',
+},
+source_64: {
+    api: 'https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json/',
+    name: 'ikun云',
+    detail: 'https://ikunzyapi.com',
+}
 };
 
 // 定义合并方法
